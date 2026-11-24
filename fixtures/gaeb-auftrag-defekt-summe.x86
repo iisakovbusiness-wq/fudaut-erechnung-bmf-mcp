@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GAEB xmlns="http://www.gaeb.de/GAEB_DA_XML/DA86/3.3">
+  <GAEBInfo>
+    <Version>3.3</Version>
+    <Date>2026-11-22</Date>
+  </GAEBInfo>
+  <PrjInfo>
+    <NamePrj>PRJ-2026-ELEKTRO-12</NamePrj>
+    <LblPrj>Hauptverteilung Musterlager Süd</LblPrj>
+    <Cur>EUR</Cur>
+  </PrjInfo>
+  <Award>
+    <DP>86</DP>
+    <AwardInfo>
+      <Prj>PRJ-2026-ELEKTRO-12</Prj>
+      <AwardNo>AUF-2026-901</AwardNo>
+      <Cur>EUR</Cur>
+    </AwardInfo>
+    <OWN>
+      <Address>
+        <Name1>Muster Logistik GmbH</Name1>
+      </Address>
+    </OWN>
+    <CTR>
+      <Address>
+        <Name1>Beispiel Elektrotechnik GmbH</Name1>
+      </Address>
+    </CTR>
+    <BoQ ID="boq-e1">
+      <BoQInfo>
+        <Name>LV-ELT-01</Name>
+        <LblBoQ>Niederspannungs-Hauptverteilung und Kabelwege</LblBoQ>
+        <Totals>
+          <Total>15950.00</Total>
+          <VAT>19.00</VAT>
+          <TotalGross>18980.50</TotalGross>
+        </Totals>
+      </BoQInfo>
+      <BoQBody>
+        <BoQCtgy ID="lot-01" RNoPart="01">
+          <LblTx><p><span>Schaltanlagen</span></p></LblTx>
+          <BoQBody>
+            <Itemlist>
+              <Item ID="e-1" RNoPart="0010">
+                <Qty>3.000</Qty>
+                <QU>Stk</QU>
+                <UP>4100.00</UP>
+                <IT>12500.00</IT>
+                <Description>
+                  <CompleteText>
+                    <OutlineText><OutlTxt><TextOutlTxt><p><span>Feldverteilerschrank 630 A bestückt</span></p></TextOutlTxt></OutlTxt></OutlineText>
+                  </CompleteText>
+                </Description>
+              </Item>
+              <Item ID="e-2" RNoPart="0020">
+                <Qty>80.000</Qty>
+                <QU>m</QU>
+                <UP>40.00</UP>
+                <IT>3200.00</IT>
+                <Description>
+                  <CompleteText>
+                    <OutlineText><OutlTxt><TextOutlTxt><p><span>Kabelrinne feuerverzinkt 300x60 mm</span></p></TextOutlTxt></OutlTxt></OutlineText>
+                  </CompleteText>
+                </Description>
+              </Item>
+            </Itemlist>
+          </BoQBody>
+          <Totals>
+            <Total>15950.00</Total>
+          </Totals>
+        </BoQCtgy>
+      </BoQBody>
+    </BoQ>
+  </Award>
+</GAEB>

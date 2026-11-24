@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.iisakovbusiness-wq/fudaut-erechnung-bmf-mcp",
+  "title": "BMF 2026 E-Rechnung, JTL ZUGFeRD XMP, Shopware Storno & GAEB MCP",
+  "description": "Validate XRechnung/ZUGFeRD (BMF 15.10.2026), JTL PDF/A-3 XMP, Shopware credit notes, and GAEB XML.",
+  "websiteUrl": "https://www.fudaut.com/de/e-rechnung-automatisieren",
+  "repository": {
+    "url": "https://github.com/iisakovbusiness-wq/fudaut-erechnung-bmf-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "fudaut-erechnung-bmf-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ERECHNUNG_ORDNER",
+          "description": "Allowed root directory for local XML, PDF/A-3, and GAEB files (defaults to current working directory).",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

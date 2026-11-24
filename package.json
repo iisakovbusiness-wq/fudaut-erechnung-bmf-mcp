@@ -1,0 +1,69 @@
+{
+  "name": "fudaut-erechnung-bmf-mcp",
+  "version": "1.0.0",
+  "mcpName": "io.github.iisakovbusiness-wq/fudaut-erechnung-bmf-mcp",
+  "description": "MIT-licensed local stdio MCP server and CLI for German E-Rechnung validation (BMF 15.10.2026 construction partial/final invoices, EN 16931), JTL-Wawi WAWI-86919 PDF/A-3 XMP checks, Shopware 6 B2B credit note math, and GAEB X83/X84/X86 to ERP-JSON parsing.",
+  "license": "MIT",
+  "author": "Ilia Isakov, Fudaut (https://www.fudaut.com)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "fudaut-erechnung-bmf-mcp": "dist/cli.js",
+    "erechnung-bmf-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "fixtures/",
+    "scripts/",
+    "server.json",
+    "glama.json",
+    "Dockerfile",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iisakovbusiness-wq/fudaut-erechnung-bmf-mcp.git"
+  },
+  "homepage": "https://www.fudaut.com/de/e-rechnung-automatisieren",
+  "bugs": {
+    "url": "https://github.com/iisakovbusiness-wq/fudaut-erechnung-bmf-mcp/issues"
+  },
+  "keywords": [
+    "e-rechnung",
+    "xrechnung",
+    "zugferd",
+    "factur-x",
+    "bmf",
+    "jtl-wawi",
+    "shopware",
+    "gaeb",
+    "en16931",
+    "pdfa-3",
+    "mcp",
+    "mcp-server",
+    "germany",
+    "handwerk"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node ./node_modules/typescript/bin/tsc -p tsconfig.json",
+    "typecheck": "node ./node_modules/typescript/bin/tsc -p tsconfig.json --noEmit",
+    "start": "node dist/server.js",
+    "fixtures": "node scripts/erzeuge-fixtures.mjs",
+    "test": "node ./node_modules/typescript/bin/tsc -p tsconfig.json && node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.3.1",
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  }
+}
