@@ -6,6 +6,12 @@
 
 [![Glama MCP Server](https://glama.ai/mcp/servers/iisakovbusiness-wq/fudaut-erechnung-bmf-mcp/badges/score.svg)](https://glama.ai/mcp/servers/iisakovbusiness-wq/fudaut-erechnung-bmf-mcp)
 
+> **Free Browser Validator (100 % client-side, zero upload, `0 EUR`):** Test XRechnung, ZUGFeRD `PDF/A-3` (`WAWI-86919`), Shopware credit notes, and GAEB `X83`/`X84`/`X86` directly in the browser without installing Node.js:
+> https://www.fudaut.com/en/e-rechnung-check
+>
+> **Kostenloser Browser-Prüfer (100 % lokal im Browser, null Upload, `0 €`):** XRechnung, ZUGFeRD `PDF/A-3` (`WAWI-86919`), Shopware-Gutschriften und GAEB `X83`/`X84`/`X86` sofort ohne Installation im Browser prüfen:
+> https://www.fudaut.com/de/e-rechnung-check
+
 ---
 
 ## English
